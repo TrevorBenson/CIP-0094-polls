@@ -8,7 +8,7 @@ Note: We will add to and improve this guidance and information in the first half
 To run the poll governance subcommands, a version of cardano-cli with governance poll subcommand support is required. There are a couple of options for you: 
 
 1) Checkout and build [8.0.0-untested](https://github.com/input-output-hk/cardano-node/releases/tag/8.0.0-untested) (or higher) from the [input-output-hk/cardano-node](https://github.com/input-output-hk/cardano-node) repository. 
-2) Checkout and build [release/1.35](https://github.com/CardanoSolutions/cardano-node/tree/release/1.35) from the [cardanosolutions/cardano-node](https://github.com/CardanoSolutionsCardanoSolutions/cardano-node) repository.
+2) Checkout and build [release/1.35](https://github.com/CardanoSolutions/cardano-node/tree/release/1.35+cip-0094) from the [cardanosolutions/cardano-node](https://github.com/CardanoSolutions/cardano-node) repository.
 3) Download pre-built binaries, for a standard Linux system
 
 ### 1) Build cardano-cli v8
@@ -48,8 +48,8 @@ mkdir "$HOME/tmp";cd "$HOME/tmp"
 # Install curl
 # CentOS / RedHat - sudo dnf -y install curl
 # Ubuntu / Debian - sudo apt -y install curl
-curl -sS -o build_CCLI8.sh https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/build_CCLI135.sh
-chmod 755 build_CCLI8.sh
+curl -sS -o build_CCLI135.sh https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/build_CCLI135.sh
+chmod 755 build_CCLI135.sh
 ```
 
 **Execute the build script**
